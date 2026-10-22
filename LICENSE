@@ -1,0 +1,53 @@
+Meerkat Envelope Personal Use License 1.0
+
+Copyright (c) 2026 Ricky Zayas
+
+1. Scope
+
+These terms apply to the Meerkat Envelope code, documentation, examples, and
+project artwork, to the extent the copyright holder can grant those rights.
+Third-party software remains subject to its own licenses. See
+windows/THIRD_PARTY.md and the notices included with downloads.
+
+2. Personal use
+
+You may download, install, run, and copy Meerkat Envelope for your own private,
+non-commercial use. You may inspect the source and modify it for that same use.
+You may use the provided example envelope as a starting point for your personal
+designs. Keep this license and the applicable third-party notices with copies.
+
+3. Restrictions
+
+This license does not permit use for a business, employer, paid service, or
+other commercial purpose. It does not permit selling, sublicensing, or publicly
+redistributing the app, source, modified versions, or artwork without the
+copyright holder's written permission. Share a link to the official GitHub
+repository or releases instead of rehosting files.
+
+Viewing and forking through GitHub are permitted to the extent required by
+GitHub's applicable terms. That permission does not authorize commercial use
+or redistribution outside the platform. Contributions submitted to this project
+may be used, modified, and distributed by the copyright holder under these terms.
+
+4. Your designs and project branding
+
+These terms do not restrict rights you hold in your own address text, imported
+artwork, envelope files, or printed and exported designs. You remain responsible
+for permission to use anything you import. Project artwork included in an output
+remains subject to these terms.
+
+The app name, mascot, and icon may remain in an unchanged official app used as
+permitted above. Accurate screenshots and references identifying the project
+are permitted. No permission is granted to use the branding for a different
+product or to imply endorsement. See docs/BRANDING.md.
+
+5. No warranty
+
+THE SOFTWARE AND PROJECT MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED
+BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THEIR USE OR INABILITY TO USE THEM.
+
+Rights not expressly granted above are reserved. This is a custom, restricted
+personal-use license, not an open-source license.
