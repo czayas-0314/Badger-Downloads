@@ -2,21 +2,16 @@
 
 Official installers for Badger Hub and the apps in its collection. Source code is maintained separately.
 
-## Public beta
-
-Meerkat Envelope is available as a public beta. The package version is `2.0.0-alpha.2`; the file names and app still use Preview. This is an early testing release with unfinished acceptance checks.
+## Badger Hub public beta
 
 Badger Hub `0.1.1-beta.1` is also available as a public beta. [Download the launcher](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for Mac or Windows, then install Meerkat from its library. Hub has no account or sign-in requirement. Its Mac app is signed but not notarized; its Windows installer is unsigned. Read the [Hub release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
 
-[Download Meerkat Envelope for Mac or Windows](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0-alpha.2).
-
-The Mac app has a Developer ID signature but is not notarized. The Windows packages are unsigned. Your computer may warn or block installation. Read [the beta installation notes](BETA.md) before downloading. No GitHub account is needed for public downloads.
-
+<!-- meerkat-beta:start -->
 ## Meerkat Envelope Preview
 
-Design envelopes with text and artwork, save Favorites, and print or export a PDF. The Rust preview runs on Mac and Windows. Its interface supports light and dark appearance. The envelope keeps its own paper and ink colors.
+[Download public beta 2.0.0-alpha.2 for Mac or Windows](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0-alpha.2).
 
-Meerkat Envelope is for personal, non-commercial use under its included license. Third-party components retain their own licenses.
+Design envelopes with text and artwork, save Favorites, and print or export a PDF. The Rust preview runs on Mac and Windows and supports light and dark appearance. Envelope paper and print colors stay independent of the interface theme.
 
 | Computer | Package |
 | --- | --- |
@@ -24,13 +19,16 @@ Meerkat Envelope is for personal, non-commercial use under its included license.
 | Windows 11, Intel or AMD | [Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-x86_64.exe) |
 | Windows 11 on ARM | [Windows ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-aarch64.exe) |
 
-Badger Hub selects a compatible download. Its Windows ZIP packages are for managed Hub installation and updates. Standalone Windows users can use the EXE installer for their processor.
+Badger Hub selects a compatible download and uses the Windows ZIP packages for managed installation and updates. Public downloads require no GitHub account.
 
-The preview still requires hardware and physical-printing acceptance. Keep a copy of important designs and use the envelope size that matches the paper loaded in your printer. The preview installs separately from earlier Meerkat apps.
+The Mac app is Developer ID signed but is not notarized. Windows packages are unsigned. Your computer may warn or block installation. Read [the beta installation notes](BETA.md). Physical printing alignment and the remaining manual accessibility and hardware checks are unfinished. Keep copies of important designs and test a sample envelope before printing a batch.
+
+The preview installs separately from earlier Meerkat apps. Meerkat Envelope is licensed for personal, non-commercial use; third-party components retain their own licenses. Notices and required third-party source material accompany the release.
 
 ![Meerkat Envelope beta in dark appearance, using fictional addresses](screenshots/meerkat-dark.png)
 
-[Release notes](MEERKAT_BETA_RELEASE.md) describe the changes and testing limits. Report a problem through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues). Include your operating system and app version. Remove real names and addresses from reports and screenshots.
+The screenshot shows version 2.0.0-alpha.2. [Release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0-alpha.2) describe this build's verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
+<!-- meerkat-beta:end -->
 
 ## Updates
 
