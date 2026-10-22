@@ -6,6 +6,8 @@ Official installers for Badger Hub and the apps in its collection. Source code i
 
 Meerkat Envelope is available as a public beta. The package version is `2.0.0-alpha.2`; the file names and app still use Preview. This is an early testing release with unfinished acceptance checks.
 
+Badger Hub `0.1.1-beta.1` is also available as a public beta. [Download the launcher](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for Mac or Windows, then install Meerkat from its library. Hub has no account or sign-in requirement. Its Mac app is signed but not notarized; its Windows installer is unsigned. Read the [Hub release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
+
 [Download Meerkat Envelope for Mac or Windows](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0-alpha.2).
 
 The Mac app has a Developer ID signature but is not notarized. The Windows packages are unsigned. Your computer may warn or block installation. Read [the beta installation notes](BETA.md) before downloading. No GitHub account is needed for public downloads.
