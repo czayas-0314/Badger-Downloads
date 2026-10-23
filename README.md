@@ -6,6 +6,11 @@ Official installers for Badger Hub and the apps in its collection. Source code i
 
 Badger Hub `0.1.1-beta.1` is also available as a public beta. [Download the launcher](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for Mac or Windows, then install Meerkat from its library. Hub has no account or sign-in requirement. Its Mac app is signed but not notarized; its Windows installer is unsigned. Read the [Hub release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
 
+| Badger Hub installer | Download |
+| --- | --- |
+| Mac, Apple silicon or Intel | [Universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-macos-universal.dmg) |
+| Windows, Intel or AMD | [Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-windows-x86_64.exe) |
+
 <!-- meerkat-beta:start -->
 ## Meerkat Envelope Preview
 
@@ -35,3 +40,7 @@ The screenshot shows version 2.0.0-alpha.2. [Release notes](https://github.com/c
 Each Meerkat version has one release containing its Mac and Windows packages. Checksums and dependency notices accompany the downloads. The signed Hub catalog points to version-specific assets. App updates keep documents and Favorites in their separate data folders.
 
 The Hub catalog is published through the `catalog` release. App packages use `meerkat-vVERSION` tags. Hub installers use `badger-hub-vVERSION` tags.
+
+## Other public downloads
+
+[Mongoose Rail for Mac](https://github.com/czayas-0314/mongoose-rail) has its own download repository. It is not currently listed in Badger Hub.
