@@ -4,15 +4,17 @@ Official installers for Badger Hub and the apps in its collection. Source code i
 
 ## Badger Hub
 
-[Badger Hub 0.1.2 for Apple silicon Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.2) is Developer ID signed, notarized and stapled. Browse the app collection, install compatible public releases, and open installed apps without an account.
+[Badger Hub 0.1.3 for Apple silicon Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.3) is Developer ID signed, notarized and stapled. Browse the app collection, install compatible public releases, and open installed apps without an account.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon | [0.1.2 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.2/Badger-Hub-0.1.2-macos-aarch64.dmg) |
+| Mac, Apple silicon | [0.1.3 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.3/Badger-Hub-0.1.3-macos-aarch64.dmg) |
 | Mac, Intel, earlier beta | [0.1.1-beta.1 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-macos-universal.dmg) |
 | Windows, Intel or AMD, earlier beta | [0.1.1-beta.1 Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-windows-x86_64.exe) |
 
-Hub checks its signed catalog when opened or brought forward, when connectivity returns, and every 15 minutes while visible. Newer compatible app releases show an Update button and update count. Close an app before updating it. Hub's own automatic updater is not configured; install newer Hub releases manually.
+Hub checks for app releases and its own updates when opened or brought forward, when connectivity returns, and every 15 minutes while visible. Newer compatible app releases show an Update button and update count. Close other apps before updating them.
+
+To update Hub itself, open Updates or About & settings, choose Check for Hub updates, then Update & restart. Hub downloads and verifies the update, replaces its app and restarts. Copies older than 0.1.3 need one installer upgrade to gain the built-in Hub updater.
 
 The earlier Intel Mac beta is signed but not notarized. The earlier Windows beta is unsigned. See their [release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
 
