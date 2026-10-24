@@ -2,42 +2,47 @@
 
 Official installers for Badger Hub and the apps in its collection. Source code is maintained separately.
 
-## Badger Hub public beta
+## Badger Hub
 
-Badger Hub `0.1.1-beta.1` is also available as a public beta. [Download the launcher](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for Mac or Windows, then install Meerkat from its library. Hub has no account or sign-in requirement. Its Mac app is signed but not notarized; its Windows installer is unsigned. Read the [Hub release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
+[Badger Hub 0.1.2 for Apple silicon Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.2) is Developer ID signed, notarized and stapled. Browse the app collection, install compatible public releases, and open installed apps without an account.
 
-| Badger Hub installer | Download |
+| Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel | [Universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-macos-universal.dmg) |
-| Windows, Intel or AMD | [Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-windows-x86_64.exe) |
+| Mac, Apple silicon | [0.1.2 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.2/Badger-Hub-0.1.2-macos-aarch64.dmg) |
+| Mac, Intel, earlier beta | [0.1.1-beta.1 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-macos-universal.dmg) |
+| Windows, Intel or AMD, earlier beta | [0.1.1-beta.1 Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-windows-x86_64.exe) |
+
+Hub checks its signed catalog when opened or brought forward, when connectivity returns, and every 15 minutes while visible. Newer compatible app releases show an Update button and update count. Close an app before updating it. Hub's own automatic updater is not configured; install newer Hub releases manually.
+
+The earlier Intel Mac beta is signed but not notarized. The earlier Windows beta is unsigned. See their [release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
 
 <!-- meerkat-beta:start -->
-## Meerkat Envelope Preview
+## Meerkat Envelope
 
-[Download public beta 2.0.0-alpha.2 for Mac or Windows](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0-alpha.2).
+[Meerkat Envelope 2.0.0 for Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0) includes Apple silicon and Intel executables for macOS 14 or later. The app and disk image are Developer ID signed, notarized and stapled.
 
-Design envelopes with text and artwork, save Favorites, and print or export a PDF. The Rust preview runs on Mac and Windows and supports light and dark appearance. Envelope paper and print colors stay independent of the interface theme.
+Design envelopes with text and artwork, save Favorites, and print or export a PDF. The interface supports light and dark appearance. Envelope paper and print colors stay independent of the interface theme.
 
 | Computer | Package |
 | --- | --- |
-| Mac, Apple silicon or Intel, macOS 14 or later | [Universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-macos-universal.dmg) |
-| Windows 11, Intel or AMD | [Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-x86_64.exe) |
-| Windows 11 on ARM | [Windows ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-aarch64.exe) |
+| Mac, Apple silicon or Intel, macOS 14 or later | [2.0.0 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0/Meerkat-Envelope-2.0.0-macos-universal.dmg) |
+| Windows 11, Intel or AMD, earlier testing release | [2.0.0-alpha.2 Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-x86_64.exe) |
+| Windows 11 on ARM, earlier testing release | [2.0.0-alpha.2 Windows ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-aarch64.exe) |
 
-Badger Hub selects a compatible download and uses the Windows ZIP packages for managed installation and updates. Public downloads require no GitHub account.
+Badger Hub selects a compatible download and uses the Windows ZIP packages for managed installation and updates. Public downloads require no GitHub account. Windows packages remain unsigned; read the [earlier beta installation notes](BETA.md).
 
-The Mac app is Developer ID signed but is not notarized. Windows packages are unsigned. Your computer may warn or block installation. Read [the beta installation notes](BETA.md). Physical printing alignment and the remaining manual accessibility and hardware checks are unfinished. Keep copies of important designs and test a sample envelope before printing a batch.
+Mac version 2.0.0 uses the name Meerkat Envelope and retains the previous Rust app's identity and separate Favorites library. Check for Updates opens Badger Hub. Physical printing alignment, native Intel hardware and the remaining manual accessibility checks are unverified. Keep copies of important designs and test a sample envelope before printing a batch.
 
-The preview installs separately from earlier Meerkat apps. Meerkat Envelope is licensed for personal, non-commercial use; third-party components retain their own licenses. Notices and required third-party source material accompany the release.
+Meerkat Envelope is licensed for personal, non-commercial use; third-party components retain their own licenses. Notices and required third-party source material are included in the app and the release's notices archive.
 
-![Meerkat Envelope beta in dark appearance, using fictional addresses](screenshots/meerkat-dark.png)
+![Earlier Meerkat interface in dark appearance, using fictional addresses](screenshots/meerkat-dark.png)
 
-The screenshot shows version 2.0.0-alpha.2. [Release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0-alpha.2) describe this build's verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
+The screenshot shows the earlier 2.0.0-alpha.2 interface. [Mac 2.0.0 release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.0.0) describe this release's verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
 <!-- meerkat-beta:end -->
 
 ## Updates
 
-Each Meerkat version has one release containing its Mac and Windows packages. Checksums and dependency notices accompany the downloads. The signed Hub catalog points to version-specific assets. App updates keep documents and Favorites in their separate data folders.
+Each app release contains packages for its published platforms. Checksums and dependency notices accompany the downloads. The signed Hub catalog points to version-specific assets. App updates keep documents and Favorites in their separate data folders.
 
 The Hub catalog is published through the `catalog` release. App packages use `meerkat-vVERSION` tags. Hub installers use `badger-hub-vVERSION` tags.
 
