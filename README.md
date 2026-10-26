@@ -2,6 +2,8 @@
 
 Official installers for Badger Hub and the apps in its collection. Source code is maintained separately.
 
+Downloads are free and require no GitHub account. Download Hub, then use its library to install compatible apps and their available updates. GitHub hosts the published downloads, so they remain available when the build computers are off.
+
 ## Badger Hub
 
 [Badger Hub 0.2.0 for Apple silicon Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.2.0) is Developer ID signed, notarized and stapled. The interface and updater are written in Rust. Browse the app collection, install compatible public releases, and open installed apps without an account.
