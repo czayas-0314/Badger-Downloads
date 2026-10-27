@@ -6,19 +6,17 @@ Downloads are free and require no GitHub account. Download Hub, then use its lib
 
 ## Badger Hub
 
-[Badger Hub 0.2.0 for Apple silicon Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.2.0) is Developer ID signed, notarized and stapled. The interface and updater are written in Rust. Browse the app collection, install compatible public releases, and open installed apps without an account.
+Badger Hub 0.3.0 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon | [0.2.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.2.0/Badger-Hub-0.2.0-macos-aarch64.dmg) |
-| Mac, Intel, earlier beta | [0.1.1-beta.1 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-macos-universal.dmg) |
-| Windows, Intel or AMD, earlier beta | [0.1.1-beta.1 Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.1.1-beta.1/Badger-Hub-0.1.1-beta.1-windows-x86_64.exe) |
+| Mac, Apple silicon | [0.3.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.3.0/Badger-Hub-0.3.0-macos-aarch64.dmg) |
+| Windows on ARM | [0.3.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.3.0/Badger-Hub-0.3.0-windows-aarch64-setup.exe) |
+| Windows, Intel or AMD | [0.3.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.3.0/Badger-Hub-0.3.0-windows-x86_64-setup.exe) |
 
-Hub checks for app releases and its own updates when opened or brought forward, when connectivity returns, and every 15 minutes while visible. Newer compatible app releases show an Update button and update count. Close other apps before updating them.
+Open Updates to check for app updates. To update Hub itself, choose Check for Hub updates, then Update & restart. Hub checks when opened or brought forward and every 15 minutes while visible. Close another app before updating it.
 
-To update Hub itself, open Updates or About & settings, choose Check for Hub updates, then Update & restart. Hub downloads and verifies the update, replaces its app and restarts. Copies older than 0.1.3 need one installer upgrade to gain the built-in Hub updater.
-
-The earlier Intel Mac beta is signed but not notarized. The earlier Windows beta is unsigned. See their [release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.1.1-beta.1) for testing limits.
+The Mac package is signed, notarized and stapled. Windows update ZIPs are signed by the publisher; Windows installers do not have an Authenticode signature. Windows x64 was tested through ARM64 emulation. Intel Mac users can find the earlier beta in [all releases](https://github.com/czayas-0314/Badger-Downloads/releases).
 
 <!-- meerkat-beta:start -->
 ## Meerkat Envelope
