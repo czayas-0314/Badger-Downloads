@@ -21,25 +21,27 @@ The Mac package is signed, notarized and stapled. Windows update ZIPs are signed
 <!-- meerkat-beta:start -->
 ## Meerkat Envelope
 
-[Meerkat Envelope 2.1.0 for Mac](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.1.0) includes Apple silicon and Intel executables for macOS 14 or later. The app and disk image are Developer ID signed, notarized and stapled.
+[Meerkat Envelope 2.2.0 for Mac and Windows](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) shares its native Rust editor across both operating systems. Design envelopes with text and artwork, save Favorites and Templates, and print or export a PDF.
 
-Design envelopes with text and artwork, save Favorites, and print or export a PDF. The interface supports light and dark appearance. Envelope paper and print colors stay independent of the interface theme.
+Edit and click away to keep working without saving. The sidebar has visible Save and Favorites controls. Closing with unsaved edits offers Save, Discard and Cancel. Light and dark appearance and the Meerkat mascot are included on both platforms.
 
-| Computer | Package |
+| Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel, macOS 14 or later | [2.1.0 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.1.0/Meerkat-Envelope-2.1.0-macos-universal.dmg) |
-| Windows 11, Intel or AMD, earlier testing release | [2.0.0-alpha.2 Windows x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-x86_64.exe) |
-| Windows 11 on ARM, earlier testing release | [2.0.0-alpha.2 Windows ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.0.0-alpha.2/Meerkat-Envelope-Preview-2.0.0-alpha.2-windows-aarch64.exe) |
+| Mac, Apple silicon or Intel, macOS 14 or later | [2.2.0 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-macos-universal.dmg) |
+| Windows 11, Intel or AMD | [2.2.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-x64-setup.exe) |
+| Windows 11 on ARM | [2.2.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-arm64-setup.exe) |
 
-Badger Hub selects a compatible download and uses the Windows ZIP packages for managed installation and updates. Public downloads require no GitHub account. Windows packages remain unsigned; read the [earlier beta installation notes](BETA.md).
+Install Meerkat through Badger Hub to receive managed updates inside Hub. Standalone Windows installations use the standalone installer for updates. Downloads require no GitHub account. Favorites and settings remain in their separate data folders.
 
-Mac version 2.1.0 uses a native Rust interface and Rust drawing/printing services and retains the previous Rust app's identity and separate Favorites library. Check for Updates opens Badger Hub. Physical printing alignment, native Intel hardware and the remaining manual accessibility checks are unverified. Keep copies of important designs and test a sample envelope before printing a batch.
+The Mac app and disk image are Developer ID signed, notarized and stapled. Windows installers are unsigned. Hub authenticates the app catalog and verifies download checksums. The release includes checksums and dependency notices with required third-party source material.
 
-Meerkat Envelope is licensed for personal, non-commercial use; third-party components retain their own licenses. Notices and required third-party source material are included in the app and the release's notices archive.
+Each platform passed 62 automated tests. The Mac editing workflow was checked live. Manual Windows editing and close-dialog acceptance, physical printer alignment, native Intel Mac hardware and remaining manual accessibility checks are unverified. Windows x64 was tested through ARM64 emulation. Test a sample envelope before printing a batch.
 
-![Native Meerkat Mac interface in dark appearance, using fictional addresses](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.1.0/meerkat-envelope-2.1.0-mac-dark.png)
+Meerkat Envelope is licensed for personal, non-commercial use; third-party components retain their own licenses.
 
-The screenshot shows Mac 2.1.0. [Mac 2.1.0 release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.1.0) describe this release's verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
+![Meerkat 2.2.0 on Mac, showing unsaved editing and sidebar Save and Favorites controls with fictional addresses](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/working-copy-edit.jpg)
+
+[Release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) describe the verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
 <!-- meerkat-beta:end -->
 
 ## Updates
