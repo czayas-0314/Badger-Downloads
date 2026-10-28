@@ -44,6 +44,22 @@ Meerkat Envelope is licensed for personal, non-commercial use; third-party compo
 [Release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) describe the verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
 <!-- meerkat-beta:end -->
 
+<!-- cappy-comm-preview:start -->
+## Cappy Comm for Mac
+
+[Cappy Comm 0.4.0-alpha.3](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.3) is a Mac alpha preview for keeping messaging accounts in separate local browser stores, with quick switching, groups and activity indicators.
+
+| Computer | Download |
+| --- | --- |
+| Mac, Apple silicon or Intel, macOS 14 or later | [0.4.0-alpha.3 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.3/Cappy-Comm-Rust-0.4.0-alpha.3-universal.dmg) |
+
+The app and disk image are Developer ID signed, notarized and stapled. Open the DMG and drag Cappy Comm Rust.app to Applications. The release includes checksums and dependency notices. Downloads require no GitHub account.
+
+Provider compatibility and stability testing continue. Intel hardware and some provider delivery checks remain unfinished. Signal is unavailable. Windows will be added after its separate testing is complete.
+
+[Release notes and verification limits](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.3) describe the preview. Screenshots show an earlier build with fictional accounts.
+<!-- cappy-comm-preview:end -->
+
 ## Updates
 
 Each app release contains packages for its published platforms. Checksums and dependency notices accompany the downloads. The signed Hub catalog points to version-specific assets. App updates keep documents and Favorites in their separate data folders.
