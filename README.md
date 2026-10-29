@@ -47,17 +47,19 @@ Meerkat Envelope is licensed for personal, non-commercial use; third-party compo
 <!-- cappy-comm-preview:start -->
 ## Cappy Comm for Mac
 
-[Cappy Comm 0.4.0-alpha.3](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.3) is a Mac alpha preview for keeping messaging accounts in separate local browser stores, with quick switching, groups and activity indicators.
+[Cappy Comm 0.4.0-alpha.4](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.4) is a Mac alpha preview for keeping messaging accounts in separate local browser stores, with quick switching, groups and activity indicators.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel, macOS 14 or later | [0.4.0-alpha.3 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.3/Cappy-Comm-Rust-0.4.0-alpha.3-universal.dmg) |
+| Mac, Apple silicon or Intel, macOS 14 or later | [0.4.0-alpha.4 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.4/Cappy-Comm-0.4.0-alpha.4-universal.dmg) |
 
-The app and disk image are Developer ID signed, notarized and stapled. Open the DMG and drag Cappy Comm Rust.app to Applications. The release includes checksums and dependency notices. Downloads require no GitHub account.
+The app is now named Cappy Comm and has a larger capybara icon.
+
+The app and disk image are Developer ID signed, notarized and stapled. Open the DMG and drag Cappy Comm.app to Applications. The release includes checksums and dependency notices. Downloads require no GitHub account.
 
 Provider compatibility and stability testing continue. Intel hardware and some provider delivery checks remain unfinished. Signal is unavailable. Windows will be added after its separate testing is complete.
 
-[Release notes and verification limits](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.3) describe the preview. Screenshots show an earlier build with fictional accounts.
+[Release notes and verification limits](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.4) describe the preview. Screenshots show an earlier build with fictional accounts.
 <!-- cappy-comm-preview:end -->
 
 ## Updates
