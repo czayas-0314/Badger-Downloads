@@ -6,13 +6,13 @@ Downloads are free and require no GitHub account. Download Hub, then use its lib
 
 ## Badger Hub
 
-Badger Hub 0.3.0 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
+Badger Hub 0.4.0 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon | [0.3.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.3.0/Badger-Hub-0.3.0-macos-aarch64.dmg) |
-| Windows on ARM | [0.3.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.3.0/Badger-Hub-0.3.0-windows-aarch64-setup.exe) |
-| Windows, Intel or AMD | [0.3.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.3.0/Badger-Hub-0.3.0-windows-x86_64-setup.exe) |
+| Mac, Apple silicon | [0.4.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-macos-aarch64.dmg) |
+| Windows on ARM | [0.4.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-windows-aarch64-setup.exe) |
+| Windows, Intel or AMD | [0.4.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-windows-x86_64-setup.exe) |
 
 Open Updates to check for app updates. To update Hub itself, choose Check for Hub updates, then Update & restart. Hub checks when opened or brought forward and every 15 minutes while visible. Close another app before updating it.
 
