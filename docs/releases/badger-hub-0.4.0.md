@@ -136,8 +136,6 @@ The release record reports **64 passing Mac tests** and **65 passing tests for e
 
 **Windows x64 was tested under Windows ARM64 emulation, not on native Intel or AMD hardware.** Windows installers remain unsigned by Authenticode. The screenshots above show Mac; operating-system controls and some app-management actions differ on Windows.
 
-These are the existing 0.4.0 packages. This expanded download guide does not change the installers or update feed.
-
 ## Help, feedback, and licenses
 
 If installation, updates, or an app fail, [open an issue](https://github.com/czayas-0314/Badger-Downloads/issues/new). Include the app and version, operating system, processor type, steps to reproduce, and exact error text. Remove private account details, names, and addresses from screenshots and sample files.
