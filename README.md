@@ -22,39 +22,19 @@ Welcome to **Badger Downloads**, the public home for Badger Hub and the apps in 
 
 ## Badger Hub
 
-**Current release: 0.4.0** · Mac with Apple silicon · Windows ARM64 and x64
-
-Choose the installer that matches your computer. The links below download the installer directly.
+Badger Hub 0.4.1 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
 
 | Computer | Download |
 | --- | --- |
-| **Mac — Apple silicon (M-series)** | **[Download for Mac · 0.4.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-macos-aarch64.dmg)** |
-| **Windows — Intel or AMD** | **[Download for Windows · 0.4.0 x64 EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-windows-x86_64-setup.exe)** |
-| **Windows — ARM / Snapdragon** | **[Download for Windows on ARM · 0.4.0 ARM64 EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-windows-aarch64-setup.exe)** |
+| Mac, Apple silicon | [0.4.1 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.1/Badger-Hub-0.4.1-macos-aarch64.dmg) |
+| Windows on ARM | [0.4.1 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.1/Badger-Hub-0.4.1-windows-aarch64-setup.exe) |
+| Windows, Intel or AMD | [0.4.1 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.1/Badger-Hub-0.4.1-windows-x86_64-setup.exe) |
 
-**Mac:** Open the DMG, drag **Badger Hub** into **Applications**, then launch it from Applications.
+If your Hub is older than 0.4.1, download and install the current Hub once. The previous update-signing key is unavailable, so those installations cannot receive this release through the old updater. Your app libraries and settings are preserved. Subsequent Hub updates use Update & restart.
 
-**Windows:** Run the matching EXE, complete the installer, then open **Badger Apps → Badger Hub** from Start.
+Open Updates to check for app updates. To update Hub itself, choose Check for Hub updates, then Update & restart. Hub checks when opened or brought forward and every 15 minutes while visible. Close another app before updating it.
 
-Not sure which Windows download to use? Open **Settings → System → About → System type**. Hub 0.4.0 has no Intel Mac package. Older Intel Mac betas remain in [all Hub releases](https://github.com/czayas-0314/Badger-Downloads/releases?q=badger-hub); their features and signing status differ.
-
-![Badger Hub 0.4.0 on Mac, showing the compact app library in dark mode with Cappy Comm and Meerkat Envelope](docs/images/hub-0.4.0-library-macos.png)
-
-*Actual Hub 0.4.0 Mac screenshot. Catalog contents and app versions can change. Windows uses the shared interface with platform-specific controls.*
-
-### A library that stays useful
-
-- **Find an app:** search, filter by category, and switch between grid and list views.
-- **Look before installing:** open app details for descriptions, screenshots, version, release channel, and operating-system requirements.
-- **Keep apps current:** use **Updates** for compatible Hub-managed apps and **Update & restart** for Hub itself.
-- **Read what changed:** release notes and older release history open inside Hub.
-- **Make it yours:** choose System, Light, or Dark appearance, and hide apps you do not want in the library.
-
-[Read the full Hub guide →](docs/badger-hub.md) It includes installation, first steps, updates, troubleshooting, and optional checksum verification.
-
-> **Before installing:** The Mac app and DMG are Developer ID signed, notarized, and stapled. Windows installers are **not Authenticode signed** and may show an unknown-publisher or SmartScreen warning. Windows update archives have a separate publisher signature; that is not a Windows code-signing certificate. Windows x64 was tested under Windows ARM64 emulation, not on native Intel/AMD hardware. See the [release details](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.4.0).
-
----
+The Mac package is signed, notarized and stapled. Windows update ZIPs are signed by the publisher; Windows installers do not have an Authenticode signature. Windows x64 was tested through ARM64 emulation. Intel Mac users can find the earlier beta in [all releases](https://github.com/czayas-0314/Badger-Downloads/releases).
 
 <!-- meerkat-beta:start -->
 ## Meerkat Envelope
