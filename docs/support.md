@@ -6,7 +6,7 @@ Badger Downloads is the public home for installers, release notes, and feedback 
 
 ## Before reporting
 
-Read the [Hub installation and user guide](badger-hub.md), check the release notes for your app and platform, and search for an existing report. Add a reaction to an existing request if it matches your need. If you have new reproduction details, add them to the existing report after removing private information.
+Read the [Hub installation and user guide](https://github.com/czayas-0314/Badger-Downloads/blob/main/docs/badger-hub.md), check the release notes for your app and platform, and search for an existing report. Add a reaction to an existing request if it matches your need. If you have new reproduction details, add them to the existing report after removing private information.
 
 Use the bug form for errors, failed installations or updates, and unexpected behavior. Include the affected app version, operating system and version, processor type, steps to reproduce, expected behavior, and actual behavior. Include Hub's version when the problem involves Hub. Use fictional sample data.
 
