@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support and feedback guide
+    url: https://github.com/czayas-0314/Badger-Downloads/blob/main/docs/support.md
+    about: Read reporting guidance, privacy advice, and the triage policy.
+  - name: Installation and user guide
+    url: https://github.com/czayas-0314/Badger-Downloads/blob/main/docs/badger-hub.md
+    about: Choose an installer and troubleshoot Badger Hub.

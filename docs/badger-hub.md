@@ -4,7 +4,7 @@
 
 Badger Hub runs on Mac and Windows. You can search the collection, compare screenshots and release information, install a compatible app, and check for updates without opening a separate download page for every app. Hub downloads and installation do not require a GitHub account or a Hub sign-in.
 
-[Download Hub](../README.md#download-hub) · [0.4.0 release](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.4.0) · [Report a problem](https://github.com/czayas-0314/Badger-Downloads/issues/new)
+[Download Hub](../README.md#download-hub) · [0.4.2 release](https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.4.2) · [Report a bug](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml)
 
 ## In this guide
 
@@ -20,31 +20,33 @@ Badger Hub runs on Mac and Windows. You can search the collection, compare scree
 
 ## Choose your download
 
-The current Hub release is **0.4.0**.
+The current Hub release is **0.4.2**.
 
 | Your computer | Installer |
 | --- | --- |
-| Apple silicon Mac — an Apple M-series chip | [Mac DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-macos-aarch64.dmg) |
-| Windows with an Intel or AMD x64 processor | [Windows x64 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-windows-x86_64-setup.exe) |
-| Windows on ARM — including Snapdragon computers | [Windows ARM64 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-windows-aarch64-setup.exe) |
+| Apple silicon Mac — an Apple M-series chip | [Mac DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.2/Badger-Hub-0.4.2-macos-aarch64.dmg) |
+| Windows with an Intel or AMD x64 processor | [Windows x64 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.2/Badger-Hub-0.4.2-windows-x86_64-setup.exe) |
+| Windows on ARM — including Snapdragon computers | [Windows ARM64 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.2/Badger-Hub-0.4.2-windows-aarch64-setup.exe) |
 
 On Mac, choose **Apple menu → About This Mac** and look for the chip. On Windows, open **Settings → System → About → System type**. Use ARM64 for an ARM-based processor and x64 for an x64-based processor.
 
-Hub 0.4.0 does not include an Intel Mac build. [Earlier Hub betas](https://github.com/czayas-0314/Badger-Downloads/releases?q=badger-hub) include Intel-compatible downloads, but have different features and signing status. Windows 11 is the current testing target. The Windows x64 package was tested through emulation on Windows ARM64; native Intel/AMD hardware acceptance is still outstanding.
+Hub 0.4.2 does not include an Intel Mac build. [Earlier Hub betas](https://github.com/czayas-0314/Badger-Downloads/releases?q=badger-hub) include Intel-compatible downloads, but have different features and signing status. Windows 11 is the current testing target. The Windows x64 package was tested through emulation on Windows ARM64; native Intel/AMD hardware acceptance is still outstanding.
 
 Internet access is needed to refresh the catalog, download apps, load online release history, and check for updates. Each app has its own operating-system requirements. Read **Requires** in its details before installing; for example, Meerkat Envelope 2.2.0 for Mac requires macOS 14 or later.
 
 ## Install on Mac
 
 1. Download the **Mac DMG** above.
-2. Open `Badger-Hub-0.4.0-macos-aarch64.dmg` from Downloads.
+2. Open `Badger-Hub-0.4.2-macos-aarch64.dmg` from Downloads.
 3. Drag **Badger Hub.app** into **Applications**.
 4. Launch **Badger Hub** from Applications. Confirm the normal first-open prompt if macOS asks whether to open a downloaded app.
 5. Once the copy is complete, eject the disk image. Use the copy in Applications for future launches and updates.
 
-The 0.4.0 Mac app and disk image are **Developer ID signed, notarized, and stapled**. If macOS reports that this release is damaged or cannot be verified, download a fresh copy from the official release page and report the exact message if it persists. Keep macOS security protections enabled.
+The 0.4.2 Mac app and disk image are **Developer ID signed, notarized, and stapled**. If macOS reports that this release is damaged or cannot be verified, download a fresh copy from the official release page and report the exact message if it persists. Keep macOS security protections enabled.
 
-If you already have Hub, quit it before manually replacing the app. Keep your existing libraries and settings folders in place.
+If you already have Hub, quit it before manually replacing the app. Keep your existing libraries and settings folders in place. Hub versions older than 0.4.1 need this manual installation once because the previous update-signing key is unavailable. Later updates use **Update & restart**.
+
+Apps installed through Hub appear in `/Applications`, or `~/Applications` when the shared folder is not writable. Hub moves verified older managed copies into Applications when safe; conflicting copies are kept for review. Documents and settings stay in their separate data folders.
 
 ## Install on Windows
 
@@ -88,7 +90,7 @@ The catalog currently includes Meerkat Envelope for envelope design and Cappy Co
 
 **Hide without uninstalling.** Use **Hide App** to remove an app from the main library, then restore it through **Hidden apps** when you want it back.
 
-**Mac app management.** For verified supported installations, **Show in Finder**, **Reinstall**, and **Uninstall** are available. Quit the app first. Uninstall moves the verified app bundle to Trash and keeps its saved documents and settings. These management actions are currently Mac-specific and are disabled where unsupported, including on Windows.
+**App management.** For verified supported installations, **Show in Finder** or **Show in File Explorer**, **Reinstall**, and **Uninstall** are available. Quit the app first. Uninstall moves only the verified app to Trash or the Recycle Bin and keeps documents and settings. Managed Windows ZIP apps receive Start-menu shortcuts, which Hub repairs at startup and refreshes after updates. Standalone installers manage their own shortcuts.
 
 ## Keep Hub and your apps up to date
 
@@ -121,22 +123,22 @@ Updates are designed to preserve libraries and settings stored separately from a
 | **Installed outside Badger Hub** | Update that copy with its original installer. Do not remove its saved data to make Hub manage it. |
 | **Update or release-history check failed** | Check the connection and retry. Record the exact error if it continues. |
 | **Windows blocks the installer** | Confirm the architecture and official download location. Review the unsigned-installer note above and your organization's policy. |
-| **macOS cannot verify the download** | Use a fresh copy of the 0.4.0 DMG from the official page. If the message persists, report it with your macOS version. |
+| **macOS cannot verify the download** | Use a fresh copy of the 0.4.2 DMG from the official page. If the message persists, report it with your macOS version. |
 
 ## Verify a download
 
-This is optional. The release includes a [SHA256SUMS file](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/SHA256SUMS) listing the SHA-256 hash for each published installer and update file.
+This is optional. The release includes a [SHA256SUMS file](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.2/SHA256SUMS) listing the SHA-256 hash for each published installer and update file.
 
 On Mac, run this in Terminal after downloading the DMG:
 
 ```sh
-shasum -a 256 ~/Downloads/Badger-Hub-0.4.0-macos-aarch64.dmg
+shasum -a 256 ~/Downloads/Badger-Hub-0.4.2-macos-aarch64.dmg
 ```
 
 On Windows, run this in PowerShell for the x64 installer, or replace the filename with the ARM64 installer name:
 
 ```powershell
-Get-FileHash "$HOME\Downloads\Badger-Hub-0.4.0-windows-x86_64-setup.exe" -Algorithm SHA256
+Get-FileHash "$HOME\Downloads\Badger-Hub-0.4.2-windows-x86_64-setup.exe" -Algorithm SHA256
 ```
 
 Compare the full result with the matching filename in `SHA256SUMS`; letter case does not matter. If they differ, do not run the file. Download a fresh copy and report a repeat mismatch. A checksum checks that your file matches the published bytes; it does not replace operating-system signing or establish that software is free of bugs.
@@ -156,13 +158,15 @@ Compare the full result with the matching filename in `SHA256SUMS`; letter case 
 
 ## Licenses and feedback
 
-Downloads are free, but each application has its own license. Meerkat Envelope is licensed for personal, non-commercial use. Read the license supplied with each app before use. Third-party components retain their own licenses; Hub's [notices archive](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.0/Badger-Hub-0.4.0-notices.zip) accompanies the release.
+Downloads are free, but each application has its own license. Meerkat Envelope is licensed for personal, non-commercial use. Read the license supplied with each app before use. Third-party components retain their own licenses; Hub's [notices archive](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.4.2/Badger-Hub-0.4.2-notices.zip) accompanies the release.
 
-[Open an issue](https://github.com/czayas-0314/Badger-Downloads/issues/new) for a bug, installation problem, or feature suggestion. Include:
+Use [Report a bug](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml) for a bug or installation problem, or [Request a feature](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml) for a suggestion. The forms are public. Remove passwords, tokens, credentials, customer data, real names and addresses, account details, and unredacted logs and screenshots. Include:
 
 - App name and version, plus Hub version if relevant.
 - Operating system and processor type: Apple silicon, Windows ARM64, or Windows x64.
 - Steps to reproduce, expected behavior, actual behavior, and exact error text.
 - A screenshot or small sample when useful, with private information removed.
+
+See the [support and triage guide](support.md) for reporting guidance and status labels. Hub feedback links open a browser form for your review; they do not submit an issue or attach files. Application source changes require a separate private workflow.
 
 Screenshots in this guide were captured from the installed Mac version of Hub 0.4.0. Catalog contents can change without a Hub release. Mac and Windows share the interface; system controls and available management actions differ.

@@ -10,8 +10,9 @@
 <p align="center">
   <a href="#download-hub">Download Hub</a> ·
   <a href="docs/badger-hub.md">Installation &amp; user guide</a> ·
-  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.4.0">Release notes</a> ·
-  <a href="https://github.com/czayas-0314/Badger-Downloads/issues">Get help</a>
+  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.4.2">Release notes</a> ·
+  <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml">Report a bug</a> ·
+  <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml">Request a feature</a>
 </p>
 
 Welcome to **Badger Downloads**, the public home for Badger Hub and the apps in its collection. Hub is a desktop launcher for Mac and Windows: browse app descriptions and screenshots, install compatible releases, open your apps, and manage available updates from one library.
@@ -39,52 +40,57 @@ The Mac package is signed, notarized and stapled. Windows update ZIPs are signed
 <!-- meerkat-beta:start -->
 ## Meerkat Envelope
 
-[Meerkat Envelope 2.2.0 for Mac and Windows](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) shares its native Rust editor across both operating systems. Design envelopes with text and artwork, save Favorites and Templates, and print or export a PDF.
+Meerkat Envelope shares its native Rust editor across Mac and Windows. Design envelopes with text and artwork, save Favorites and Templates, and print or export a PDF.
 
 Edit and click away to keep working without saving. The sidebar has visible Save and Favorites controls. Closing with unsaved edits offers Save, Discard and Cancel. Light and dark appearance and the Meerkat mascot are included on both platforms.
 
+<!-- app-downloads:meerkat-envelope:start -->
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel, macOS 14 or later | [2.2.0 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-macos-universal.dmg) |
-| Windows 11, Intel or AMD | [2.2.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-x64-setup.exe) |
-| Windows 11 on ARM | [2.2.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-arm64-setup.exe) |
+| Mac, Apple silicon or Intel | [2.2.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-macos-universal.dmg) |
+| Windows on ARM | [2.2.0 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-arm64-setup.exe) |
+| Windows, Intel or AMD | [2.2.0 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-x64-setup.exe) |
+
+Release notes and verification limits: [Mac, Apple silicon or Intel: 2.2.0](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) · [Windows on ARM: 2.2.0](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) · [Windows, Intel or AMD: 2.2.0](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0).
+<!-- app-downloads:meerkat-envelope:end -->
 
 Install Meerkat through Badger Hub to receive managed updates inside Hub. Standalone Windows installations use the standalone installer for updates. Downloads require no GitHub account. Favorites and settings remain in their separate data folders.
 
 The Mac app and disk image are Developer ID signed, notarized and stapled. Windows installers are unsigned. Hub authenticates the app catalog and verifies download checksums. The release includes checksums and dependency notices with required third-party source material.
 
-Each platform passed 62 automated tests. The Mac editing workflow was checked live. Manual Windows editing and close-dialog acceptance, physical printer alignment, native Intel Mac hardware and remaining manual accessibility checks are unverified. Windows x64 was tested through ARM64 emulation. Test a sample envelope before printing a batch.
+For the 2.2.0 release, each platform passed 62 automated tests. The Mac editing workflow was checked live. Manual Windows editing and close-dialog acceptance, physical printer alignment, native Intel Mac hardware and remaining manual accessibility checks are unverified. Windows x64 was tested through ARM64 emulation. Test a sample envelope before printing a batch.
 
 Meerkat Envelope is licensed for personal, non-commercial use; third-party components retain their own licenses.
 
 ![Meerkat 2.2.0 on Mac, showing unsaved editing and sidebar Save and Favorites controls with fictional addresses](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/working-copy-edit.jpg)
 
-[Release notes](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) describe the verification and limits. Report problems through [Issues](https://github.com/czayas-0314/Badger-Downloads/issues), including your operating system and app version. Remove real names and addresses from reports and screenshots.
+Use the platform release notes above for current verification and limits. [Report a bug](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml&app=Meerkat%20Envelope) with private names and addresses removed.
 <!-- meerkat-beta:end -->
 
 <!-- cappy-comm-preview:start -->
-## Cappy Comm for Mac
+## Cappy Comm
 
-[Cappy Comm 0.4.0-alpha.6](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.6) is a Mac alpha preview for keeping messaging accounts in separate browser stores.
+Cappy Comm is an alpha preview for keeping messaging accounts in separate browser stores. Mac and Windows have separate preview releases; use the version offered for your platform.
 
+<!-- app-downloads:cappy-comm:start -->
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel, macOS 14 or later | [0.4.0-alpha.6 universal DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.6/Cappy-Comm-0.4.0-alpha.6-universal.dmg) |
+| Mac, Apple silicon or Intel | [0.4.0-alpha.8 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.8/Cappy-Comm-0.4.0-alpha.8-universal.dmg) |
+| Windows, Intel or AMD | [0.4.0-alpha.7 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-windows-v0.4.0-alpha.7/Cappy-Comm-0.4.0-alpha.7-windows-x64-setup.exe) |
 
-The compact sidebar remembers its width. Right-click an account to mute or unmute its desktop notifications. Mac sessions use the local Keychain to restore session-only cookies after quitting.
+Release notes and verification limits: [Mac, Apple silicon or Intel: 0.4.0-alpha.8](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.8) · [Windows, Intel or AMD: 0.4.0-alpha.7](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-windows-v0.4.0-alpha.7).
+<!-- app-downloads:cappy-comm:end -->
 
-The app and disk image are Developer ID signed, notarized and stapled. Open the DMG and drag Cappy Comm.app to Applications. The release includes checksums and dependency notices. Downloads require no GitHub account.
+Install through Badger Hub when a compatible package is offered, or use the standalone download above. Downloads require no GitHub account. Read the matching platform release notes for signing status, tested behavior, provider limitations, and update instructions. Providers can expire sessions; broader provider delivery and stability checks remain unfinished.
 
-The installed Mac app kept its WhatsApp sign-in through normal Quit and relaunch. Broader provider delivery and stability checks remain unfinished. Providers can expire sessions. Signal is unavailable. Windows will follow separate testing.
-
-[Release notes and verification limits](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.6) describe the preview. Screenshots show the updated layout with fictional accounts in a separate development app.
+[Report a bug](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml&app=Cappy%20Comm) or [request a feature](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml&app=Cappy%20Comm). Remove account details and private messages from reports and screenshots.
 <!-- cappy-comm-preview:end -->
 
 ## Updates
 
 Each app release contains packages for its published platforms. Checksums and dependency notices accompany the downloads. The signed Hub catalog points to version-specific assets. App updates keep documents and Favorites in their separate data folders.
 
-The Hub catalog is published through the `catalog` release. App packages use `meerkat-vVERSION` tags. Hub installers use `badger-hub-vVERSION` tags.
+The Hub catalog is published through the `catalog` release. Meerkat packages use `meerkat-vVERSION` tags. Cappy previews use platform-specific `cappy-comm` tags. Hub installers use `badger-hub-vVERSION` tags. Use the per-app links above; this repository's latest release can belong to any app.
 
 ## Other public downloads
 
@@ -92,6 +98,8 @@ The Hub catalog is published through the `catalog` release. App packages use `me
 
 ## Help and feedback
 
-Start with the [Hub installation and user guide](docs/badger-hub.md). If something still does not work, [open an issue](https://github.com/czayas-0314/Badger-Downloads/issues/new) with the app name and version, operating system, processor type, steps to reproduce, and the exact error. Screenshots help; remove private names, addresses, account details, and other personal information before posting.
+Start with the [Hub installation and user guide](docs/badger-hub.md). [Report a bug](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml) or [request a feature](https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml) using the public forms for Hub, Meerkat Envelope, Cappy Comm, or another app. Include the app version, operating system and processor type. Review pre-filled fields before submitting.
+
+Reports and attachments are public. Remove passwords, tokens, credentials, customer data, real names and addresses, private account details, and unredacted logs or screenshots. The [support and triage guide](docs/support.md) explains the `needs-info`, `accepted`, `in-progress`, and `released` statuses. Application code changes use a separate private-source workflow.
 
 For a direct installation, choose a **DMG** on Mac or a matching **setup EXE** on Windows. GitHub's automatically generated **Source code** archives are not installers. Release ZIPs, signatures, and update manifests serve separate purposes; the [Hub guide explains the files](docs/badger-hub.md#which-release-file-do-i-need).

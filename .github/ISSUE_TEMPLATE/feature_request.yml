@@ -1,0 +1,87 @@
+name: Request a feature
+description: Describe a problem and the change that would help.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This request will be public. Do not include passwords, sign-in codes, tokens, credentials, customer data, real names or addresses, private account details, or unredacted logs and screenshots.
+        Search existing requests first. Review every pre-filled field before submitting. An accepted request is not a release date or delivery promise.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Badger Hub
+        - Meerkat Envelope
+        - Cappy Comm
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Use the version you currently use. For Other, include the app name.
+    validations:
+      required: true
+  - type: input
+    id: hub-version
+    attributes:
+      label: Hub version
+      description: Include this if your request concerns Hub. Use Not using Hub for a standalone app.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+      placeholder: "For example: macOS 15.6 or Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Processor type
+      options:
+        - ARM64 (aarch64)
+        - Intel / AMD x64 (x86_64)
+        - Other / unknown
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or task
+      description: What are you trying to do, and what makes it difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the behavior you would like and how it would help.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Optional. What have you tried, and what still gets in the way?
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public request review
+      options:
+        - label: I reviewed this request and any attachments and removed private information, credentials, and customer data.
+          required: true

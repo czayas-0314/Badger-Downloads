@@ -1,0 +1,98 @@
+name: Report a bug
+description: Report an installation, update, or app problem.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report will be public. Do not include passwords, sign-in codes, tokens, credentials, customer data, real names or addresses, private account details, or unredacted logs and screenshots.
+        Search existing issues first. Review every pre-filled field before submitting. Hub opens this form; it does not submit a report or attach files for you.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Badger Hub
+        - Meerkat Envelope
+        - Cappy Comm
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Use the version of the app that has the problem. For Other, include the app name.
+      placeholder: "For example: 0.4.2"
+    validations:
+      required: true
+  - type: input
+    id: hub-version
+    attributes:
+      label: Hub version
+      description: Include this for installation or update problems. Use Not using Hub for a standalone app.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+      placeholder: "For example: macOS 15.6 or Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Processor type
+      options:
+        - ARM64 (aarch64)
+        - Intel / AMD x64 (x86_64)
+        - Other / unknown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Start from opening the app. Use fictional data in any sample.
+      placeholder: |
+        1. Open the app.
+        2. Choose ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the exact error text after removing private information.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional. Attach only a small, redacted screenshot or sample if it helps. Do not upload raw logs or private files.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public report review
+      options:
+        - label: I reviewed this report and any attachments and removed private information, credentials, and customer data.
+          required: true
