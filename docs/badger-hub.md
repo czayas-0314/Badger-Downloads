@@ -81,7 +81,8 @@ The catalog currently includes Meerkat Envelope for envelope design and Cappy Co
 | **Installed** | Find the apps Hub recognizes on your computer and open them. |
 | **Updates** | Review available app updates and Hub's own update status. |
 | **Hidden apps** | Restore apps you previously hid from the library. |
-| **About & settings** | Choose System, Light, or Dark appearance. Hub remembers your choice. |
+| **Settings gear** | Open the About & settings page to choose appearance, update preferences, and help options. Use **Back to library** to return to your previous view, search, and filters. |
+| **Refresh** | Refresh the app library and check for updates using the labeled button beside Search. |
 | **App options (•••)** | Open release notes and available app-management actions or links. Unavailable actions are disabled. |
 
 **Read release history inside Hub.** Choose **Read release notes** from app details or **Release notes** from the app menu. The scrollable window includes older published releases. Close it to return to the app details or library.
@@ -90,7 +91,11 @@ The catalog currently includes Meerkat Envelope for envelope design and Cappy Co
 
 **Hide without uninstalling.** Use **Hide App** to remove an app from the main library, then restore it through **Hidden apps** when you want it back.
 
-**App management.** For verified supported installations, **Show in Finder** or **Show in File Explorer**, **Reinstall**, and **Uninstall** are available. Quit the app first. Uninstall moves only the verified app to Trash or the Recycle Bin and keeps documents and settings. Managed Windows ZIP apps receive Start-menu shortcuts, which Hub repairs at startup and refreshes after updates. Standalone installers manage their own shortcuts.
+**App management.** For verified supported installations, **Show in Finder** or **Show in File Explorer**, **Reinstall**, and **Uninstall** are available. Quit the app first. Managed Mac app bundles and Windows ZIP apps go to Trash or the Recycle Bin; supported native Windows installations use their verified uninstaller. Documents and settings stay in place. Managed Windows ZIP apps receive Start-menu shortcuts and Apps & Features entries, which Hub repairs at startup and refreshes after updates. Native installers manage their own installation folders and shortcuts.
+
+**Queued installs and updates.** Use **Update all** to queue available app updates. **Pause queue** prevents later jobs from starting; a running download can also be paused and resumed. Saved or failed queues wait for your review before continuing. **Discard download** removes the selected job's cached package. Use **Hold current version** in an app's options to pause its updates.
+
+**Update preferences.** Open the Settings gear to choose background checks, automatic updates for closed managed apps, tray operation, login startup, and notifications. These options are opt-in. Automatic app installation applies to verified Hub-managed ZIP/DMG apps; Hub updates and native Windows installers require your action. Appearance choices are on the same page.
 
 ## Keep Hub and your apps up to date
 
