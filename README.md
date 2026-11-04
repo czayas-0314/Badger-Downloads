@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#download-hub">Download Hub</a> ·
   <a href="docs/badger-hub.md">Installation &amp; user guide</a> ·
-  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.5.0">Release notes</a> ·
+  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.6.0">Release notes</a> ·
   <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml">Report a bug</a> ·
   <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml">Request a feature</a>
 </p>
@@ -23,15 +23,15 @@ Welcome to **Badger Downloads**, the public home for Badger Hub and the apps in 
 
 ## Badger Hub
 
-Badger Hub 0.5.0 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
+Badger Hub 0.6.0 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon | [0.5.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.5.0/Badger-Hub-0.5.0-macos-aarch64.dmg) |
-| Windows on ARM | [0.5.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.5.0/Badger-Hub-0.5.0-windows-aarch64-setup.exe) |
-| Windows, Intel or AMD | [0.5.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.5.0/Badger-Hub-0.5.0-windows-x86_64-setup.exe) |
+| Mac, Apple silicon | [0.6.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.0/Badger-Hub-0.6.0-macos-aarch64.dmg) |
+| Windows on ARM | [0.6.0 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.0/Badger-Hub-0.6.0-windows-aarch64-setup.exe) |
+| Windows, Intel or AMD | [0.6.0 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.0/Badger-Hub-0.6.0-windows-x86_64-setup.exe) |
 
-If your Hub is older than 0.4.1, download and install the current Hub once. The previous update-signing key is unavailable, so those installations cannot receive this release through the old updater. Your app libraries and settings are preserved. Subsequent Hub updates use Update & restart.
+If your Hub is older than 0.6.0, download and install the current Hub once. The previous update-signing key is unavailable, so those installations cannot receive this release through the old updater. Your app libraries and settings are preserved. Subsequent Hub updates use Update & restart.
 
 Open Updates to check for app updates. To update Hub itself, choose Check for Hub updates, then Update & restart. Hub checks when opened or brought forward and every 15 minutes while visible. Close another app before updating it.
 
