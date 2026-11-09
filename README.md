@@ -94,7 +94,7 @@ The Hub catalog is published through the `catalog` release. Meerkat packages use
 
 ## Other public downloads
 
-[Mongoose Rail for Mac](https://github.com/czayas-0314/mongoose-rail) has its own download repository. It is not currently listed in Badger Hub.
+[Mongoose Rail for Mac, Apple silicon](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.0-beta.2) is available as a public beta in Badger Hub 0.6.3 and later. Install it from Hub, or download the signed and notarized DMG from its own release repository. Mongoose manages its browser updates through its native updater to preserve account data and recovery safeguards. Windows and Intel Mac packages are not available for this beta; Apple Passwords compatibility remains unverified.
 
 ## Help and feedback
 
