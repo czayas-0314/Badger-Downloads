@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#download-hub">Download Hub</a> ·
   <a href="docs/badger-hub.md">Installation &amp; user guide</a> ·
-  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.6.4">Release notes</a> ·
+  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.6.5">Release notes</a> ·
   <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml">Report a bug</a> ·
   <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml">Request a feature</a>
 </p>
@@ -23,13 +23,13 @@ Welcome to **Badger Downloads**, the public home for Badger Hub and the apps in 
 
 ## Badger Hub
 
-Badger Hub 0.6.4 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
+Badger Hub 0.6.5 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon | [0.6.4 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.4/Badger-Hub-0.6.4-macos-aarch64.dmg) |
-| Windows on ARM | [0.6.4 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.4/Badger-Hub-0.6.4-windows-aarch64-setup.exe) |
-| Windows, Intel or AMD | [0.6.4 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.4/Badger-Hub-0.6.4-windows-x86_64-setup.exe) |
+| Mac, Apple silicon | [0.6.5 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.5/Badger-Hub-0.6.5-macos-aarch64.dmg) |
+| Windows on ARM | [0.6.5 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.5/Badger-Hub-0.6.5-windows-aarch64-setup.exe) |
+| Windows, Intel or AMD | [0.6.5 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.5/Badger-Hub-0.6.5-windows-x86_64-setup.exe) |
 
 If your Hub is older than 0.6.4, download and install the current Hub once. The previous update-signing key is unavailable, so those installations cannot receive this release through the old updater. Your app libraries and settings are preserved. Subsequent Hub updates use Update & restart.
 
@@ -47,11 +47,11 @@ Edit and click away to keep working without saving. The sidebar has visible Save
 <!-- app-downloads:meerkat-envelope:start -->
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel | [2.2.0 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-macos-universal.dmg) |
-| Windows on ARM | [2.2.0 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-arm64-setup.exe) |
-| Windows, Intel or AMD | [2.2.0 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.2.0/Meerkat-Envelope-2.2.0-windows-x64-setup.exe) |
+| Mac, Apple silicon or Intel | [2.3.1 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.3.1/Meerkat-Envelope-2.3.1-macos-universal.dmg) |
+| Windows on ARM | [2.3.1 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.3.1/Meerkat-Envelope-2.3.1-windows-arm64-setup.exe) |
+| Windows, Intel or AMD | [2.3.1 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/meerkat-v2.3.1/Meerkat-Envelope-2.3.1-windows-x64-setup.exe) |
 
-Release notes and verification limits: [Mac, Apple silicon or Intel: 2.2.0](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) · [Windows on ARM: 2.2.0](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0) · [Windows, Intel or AMD: 2.2.0](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.2.0).
+Release notes and verification limits: [Mac, Apple silicon or Intel: 2.3.1](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.3.1) · [Windows on ARM: 2.3.1](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.3.1) · [Windows, Intel or AMD: 2.3.1](https://github.com/czayas-0314/Badger-Downloads/releases/tag/meerkat-v2.3.1).
 <!-- app-downloads:meerkat-envelope:end -->
 
 Install Meerkat through Badger Hub to receive managed updates inside Hub. Standalone Windows installations use the standalone installer for updates. Downloads require no GitHub account. Favorites and settings remain in their separate data folders.
