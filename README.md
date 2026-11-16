@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#download-hub">Download Hub</a> ·
   <a href="docs/badger-hub.md">Installation &amp; user guide</a> ·
-  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.6.6">Release notes</a> ·
+  <a href="https://github.com/czayas-0314/Badger-Downloads/releases/tag/badger-hub-v0.6.7">Release notes</a> ·
   <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=bug_report.yml">Report a bug</a> ·
   <a href="https://github.com/czayas-0314/Badger-Downloads/issues/new?template=feature_request.yml">Request a feature</a>
 </p>
@@ -23,13 +23,13 @@ Welcome to **Badger Downloads**, the public home for Badger Hub and the apps in 
 
 ## Badger Hub
 
-Badger Hub 0.6.6 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
+Badger Hub 0.6.7 has a shared Rust interface for Mac and Windows. Browse the library, install compatible apps, and update Hub and its apps from within Hub.
 
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon | [0.6.6 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.6/Badger-Hub-0.6.6-macos-aarch64.dmg) |
-| Windows on ARM | [0.6.6 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.6/Badger-Hub-0.6.6-windows-aarch64-setup.exe) |
-| Windows, Intel or AMD | [0.6.6 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.6/Badger-Hub-0.6.6-windows-x86_64-setup.exe) |
+| Mac, Apple silicon | [0.6.7 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.7/Badger-Hub-0.6.7-macos-aarch64.dmg) |
+| Windows on ARM | [0.6.7 ARM64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.7/Badger-Hub-0.6.7-windows-aarch64-setup.exe) |
+| Windows, Intel or AMD | [0.6.7 x64 installer](https://github.com/czayas-0314/Badger-Downloads/releases/download/badger-hub-v0.6.7/Badger-Hub-0.6.7-windows-x86_64-setup.exe) |
 
 If your Hub is older than 0.6.4, download and install the current Hub once. The previous update-signing key is unavailable, so those installations cannot receive this release through the old updater. Your app libraries and settings are preserved. Subsequent Hub updates use Update & restart.
 
@@ -75,10 +75,10 @@ Cappy Comm is an alpha preview for keeping messaging accounts in separate browse
 <!-- app-downloads:cappy-comm:start -->
 | Computer | Download |
 | --- | --- |
-| Mac, Apple silicon or Intel | [0.4.0-alpha.8 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.8/Cappy-Comm-0.4.0-alpha.8-universal.dmg) |
+| Mac, Apple silicon or Intel | [0.4.0-alpha.14 DMG](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-v0.4.0-alpha.14/Cappy-Comm-0.4.0-alpha.14-universal.dmg) |
 | Windows, Intel or AMD | [0.4.0-alpha.7 setup EXE](https://github.com/czayas-0314/Badger-Downloads/releases/download/cappy-comm-windows-v0.4.0-alpha.7/Cappy-Comm-0.4.0-alpha.7-windows-x64-setup.exe) |
 
-Release notes and verification limits: [Mac, Apple silicon or Intel: 0.4.0-alpha.8](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.8) · [Windows, Intel or AMD: 0.4.0-alpha.7](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-windows-v0.4.0-alpha.7).
+Release notes and verification limits: [Mac, Apple silicon or Intel: 0.4.0-alpha.14](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-v0.4.0-alpha.14) · [Windows, Intel or AMD: 0.4.0-alpha.7](https://github.com/czayas-0314/Badger-Downloads/releases/tag/cappy-comm-windows-v0.4.0-alpha.7).
 <!-- app-downloads:cappy-comm:end -->
 
 Install through Badger Hub when a compatible package is offered, or use the standalone download above. Downloads require no GitHub account. Read the matching platform release notes for signing status, tested behavior, provider limitations, and update instructions. Providers can expire sessions; broader provider delivery and stability checks remain unfinished.
